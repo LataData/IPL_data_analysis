@@ -10,6 +10,18 @@ This project predicts **first-innings total scores in IPL T20 matches** using re
 To build a machine learning pipeline that uses in-match progress features to predict the final first-innings total in IPL matches. The goal is to support analytics platforms, fantasy games, and live commentary tools with accurate score forecasts.
 
 ---
+## Libraries Used
+Python (Jupyter Notebook)
+
+pandas, numpy for data wrangling
+
+matplotlib, seaborn for visualization
+
+scikit-learn for model building
+
+pickle for model saving/loading
+
+---
 
 ##  Dataset Overview
 
@@ -53,16 +65,7 @@ Four regression models were trained and compared:
  **Final Model:** `Random Forest Regressor`  
  Saved using `pickle` as `ipl_score_predictor.pkl`
 
-**Libraries Used**
-Python (Jupyter Notebook)
 
-pandas, numpy for data wrangling
-
-matplotlib, seaborn for visualization
-
-scikit-learn for model building
-
-pickle for model saving/loading
 
 
 
