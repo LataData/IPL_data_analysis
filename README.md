@@ -64,6 +64,10 @@ Four regression models were trained and compared:
 
  **Final Model:** `Random Forest Regressor`  
  Saved using `pickle` as `ipl_score_predictor.pkl`
+## Sample Output
+ Mumbai Indians vs. Chennai Super Kings (2019, Match 23)  
+Predicted Score: 169
+
 
 
 
